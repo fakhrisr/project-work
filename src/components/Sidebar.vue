@@ -1,6 +1,6 @@
 <template>
     <div class="">
-      <div class="w-84 bg-white shadow-md h-full p-5">
+      <div class="w-full bg-white shadow-md h-screen p-5">
         <h1 class="text-[32px] font-bold mb-[77px] text-center">INVENTARIS</h1>
         <div class="flex flex-col gap-[30px] ml-6">
           <div v-for="menu in menus" :key="menu.name" :class="['flex items-center gap-[20px] p-3 rounded-[10px] ', isActive(menu.path) ? 'bg-[#D9D9D9]' : '']">

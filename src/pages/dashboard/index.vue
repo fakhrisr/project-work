@@ -1,5 +1,5 @@
 <template>
-    <div class="flex h-screen bg-gray-100">
+    <div class="flex  h-screen bg-gray-100">
         <Sidebar />
         <div class=" w-full flex-1 flex flex-col ">
             <Navbar />
@@ -43,6 +43,31 @@
             </div>
             <div class="bg-white shadow-md rounded-lg  h-[300px] m-[20px]">
                 <h1 class="text-[30px] text-center py-[34px]">Riwayat Peminjaman</h1>
+                <div class="m-6 rounded-lg border bg-gray-200 ">
+                <table class="w-full text-center border-collapse overflow-hidden rounded-lg">
+                    <thead class="bg-gray-400 text-white">
+                        <tr>
+                            <th class="p-2">NO</th>
+                            <th class="p-2">Nama</th>
+                            <th class="p-2">Type</th>
+                            <th class="p-2">Jumlah</th>
+                            <th class="p-2">Tanggal Pinjam</th>
+                            <th class="p-2">Tanggal Kembali</th>
+                        </tr>
+                    </thead>
+                    <tbody class="bg-white text-gray-900">
+                        <tr class="border-b">
+                            <td class="p-2">1</td>
+                            <td class="p-2">John Doe</td>
+                            <td class="p-2">Buku</td>
+                            <td class="p-2">2</td>
+                            <td class="p-2">2024-02-20</td>
+                            <td class="p-2">2024-02-27</td>
+                        </tr>
+                    </tbody>
+                </table>
+</div>
+
             </div>
         </div>
     </div>
